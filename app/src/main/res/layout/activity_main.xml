@@ -23,19 +23,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/to_second_task_button"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginEnd="-200dp"
-        android:background="#00000000"
-        android:scaleType="centerCrop"
-        android:src="@drawable/next_activity_icon"
-        app:layout_constraintBottom_toTopOf="@+id/webview_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <WebView
         android:id="@+id/webview_content"
         android:layout_width="match_parent"
@@ -48,13 +35,13 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="120dp"
+        android:layout_width="170dp"
         android:layout_height="60dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/roboto_medium"
         android:gravity="center"
-        android:text="Задание 2"
+        android:text="Задание 2, 3, 4"
         android:textColor="#D3CAFF"
         android:textSize="24sp"
         android:textStyle="bold"
